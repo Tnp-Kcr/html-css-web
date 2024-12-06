@@ -1,0 +1,140 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+}
+#heading{
+  background: url(redscreen.jpg);
+  color: transparent;
+  background-clip: text;
+  font-size: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+.home {
+    display:  block;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    transition-duration: 0.5s;  
+    text-align: center;
+    width: 100px;
+    border-radius: 8.5px;
+}
+.home:hover {
+    background-color: whitesmoke;
+    color: red;
+    cursor: pointer;
+    transform: translate(20px);
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  
+  h1 {
+    text-align: center;
+    color: white;
+  }
+  
+  .favorite-item {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .favorite-item h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .favorite-item img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+    padding: 20px;
+  }
+  
+  .color-box {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 50px;
+  }
+  
+  
+body {
+    background-image: url("matterhorn.jpg");
+    background-color: white;
+    font-family: "Times New Roman", serif; 
+  }
+  
+  .favorite-item {
+    box-shadow: 0 2px 5px red;
+    border-radius: 10px; 
+  }
+  
+  .favorite-item h2 {
+    color: white;
+  }
+  
+  .favorite-item p{
+    line-height: 1.5; 
+    color: white;
+  }
+  
+  .favorite-item img {
+    border: 1px solid #ccc;
+  }
+  .favorite-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .favorite-item h2:hover {
+    color: red; 
+  }
+  footer {
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+    color: black;
+  }

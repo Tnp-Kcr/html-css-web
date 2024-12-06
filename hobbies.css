@@ -1,0 +1,124 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+}
+#heading{
+    background: url(redscreen.jpg);
+    color: transparent;
+    background-clip: text;
+    font-size: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+.home {
+    display:  block;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    transition-duration: 0.5s;  
+    text-align: center;
+    width: 100px;
+}
+.home:hover {
+    background-color: whitesmoke;
+    color: red;
+    cursor: pointer;
+    transform: translate(20px);
+}
+footer {
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+#hobbies {
+    padding: 50px 0;
+}
+
+.hobby-cards {
+    display :flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.hobby-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.hobby-card h3 {
+    margin-bottom: 5px;
+}
+.hobby-card {
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid white;
+    background-color: whitesmoke;
+    flex-basis: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button {
+        background-color: pink;
+        padding: 10px 20px ;
+        
+}
+.hobby-card h3 {
+    font-family: 'Arial Rounded MT Bold', Arial, sans-serif;
+}
+
+.hobby-card p {
+    font-size: 17px;
+    line-height: 1.5;
+}
+.hobby-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px red;
+}
+.con{
+    margin: 0 1rem;
+}
+h2,p{
+    text-align: center;
+}
