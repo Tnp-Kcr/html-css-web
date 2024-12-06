@@ -26,7 +26,7 @@ nav a {
     text-decoration: none;
     color: black;
 }
-/* CSS Body */
+
 body {
     font-family: sans-serif;
     margin: 0;
@@ -42,7 +42,7 @@ body {
     text-align: center;
   }
   
-  /* CSS สำหรับส่วนข้อมูลติดต่อ */
+  
   .contact-info {
     margin-bottom: 20px;
   }
@@ -51,7 +51,7 @@ body {
     margin-bottom: 10px;
   }
   
-  /* CSS สำหรับส่วนแบบฟอร์มติดต่อ */
+
   .contact-form {
     border: 1px solid #ccc;
     padding: 20px;
